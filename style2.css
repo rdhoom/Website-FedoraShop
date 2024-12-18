@@ -1,0 +1,75 @@
+/* CSS untuk Halaman Checkout dengan Tema Abu-Abu */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+  }
+  
+  /* Container Utama */
+  .container {
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  /* Header */
+  .text-center {
+    background-color: #dee2e6; /* Warna abu-abu untuk header */
+    padding: 5px;
+  }
+  .text-center h2 {
+    color: #6c757d;
+    font-weight: bold;
+  }
+  
+  /* Keranjang */
+  .text-primary {
+    color: #6c757d !important;
+  }
+  .badge.bg-primary {
+    background-color: #6c757d !important;
+  }
+  
+  .list-group-item {
+    background-color: #f9f9f9;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  .form-select, .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  /* Form Section */
+  .form-label {
+    color: #6c757d;
+    font-weight: 600;
+  }
+  
+  input[type="text"]:focus, select:focus {
+    border-color: #adb5bd;
+    box-shadow: 0 0 5px rgba(108, 117, 125, 0.5);
+  }
+  
+  /* Metode Pembayaran */
+  .form-check-label {
+    color: #495057;
+  }
+  
+  /* Tombol Checkout */
+  .btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
